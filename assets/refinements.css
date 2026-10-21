@@ -120,6 +120,13 @@ body .publications-section .show-more {
   object-fit: contain;
 }
 
+.footer-logo-text {
+  display: block;
+  width: min(100%, 300px);
+  height: auto;
+  object-fit: contain;
+}
+
 /* Reduce all text outside People to two thirds of its previous size. */
 .site-header,
 .site-header *,
