@@ -247,7 +247,7 @@ main .news-section .section-heading h2 {
 }
 
 main .news-section .section-heading > p {
-  font-size: 11.33px !important;
+  font-size: 22.66px !important;
 }
 
 main .news-section .empty-news p {
@@ -255,12 +255,12 @@ main .news-section .empty-news p {
 }
 
 main .news-section .empty-news time {
-  font-size: 8px !important;
+  font-size: 16px !important;
 }
 
 main .news-section .empty-news span,
 main .news-section .empty-news span a {
-  font-size: 8.67px !important;
+  font-size: 17.34px !important;
 }
 
 /* Place the medicine symbol above and to the left of the cell symbol. */
