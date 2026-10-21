@@ -1,0 +1,224 @@
+.research-intro {
+  max-width: 1050px;
+  margin: 0 0 70px;
+  color: var(--ink-soft);
+}
+
+body .research-card .card-tag {
+  align-self: flex-start;
+  font-size: 20px !important;
+  line-height: 1.15;
+  text-transform: lowercase;
+  letter-spacing: .02em;
+}
+
+body .people-section,
+body .people-section .profile-copy,
+body .people-section .profile-copy *,
+body .people-section .student-card h3,
+body .people-section .student-card p {
+  font-size: 15px !important;
+}
+
+.people-section .profile-copy h2,
+.people-section .profile-copy .role,
+.people-section .profile-copy .title,
+.people-section .profile-copy .profile-bio,
+.people-section .profile-copy .profile-links {
+  line-height: 1.55;
+}
+
+.people-section .title a,
+.site-footer p a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.people-section .profile-links {
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.people-section .profile-links a {
+  display: inline-flex;
+  width: 38px;
+  height: 38px;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  color: var(--ink);
+  transition: color .2s ease, transform .2s ease;
+}
+
+.people-section .profile-links a:hover,
+.people-section .profile-links a:focus-visible {
+  color: var(--green);
+  transform: translateY(-2px);
+}
+
+.people-section .profile-links svg {
+  width: 30px;
+  height: 30px;
+  fill: currentColor;
+}
+
+body .publications-section,
+body .publications-section *,
+body .publications-section .publication-copy h3,
+body .publications-section .publication-copy > p,
+body .publications-section .pub-meta,
+body .publications-section .pub-actions,
+body .publications-section .show-more {
+  font-size: 20px !important;
+}
+
+.publications-section .publication-list {
+  margin-top: 0;
+}
+
+/* Keep the complete hero illustration inside the viewport. */
+.hero-art {
+  width: min(48vw, 720px);
+  right: 2.5%;
+  top: 11%;
+}
+
+.profile-image img {
+  background: #f3ecf5;
+}
+
+@media (max-width: 1000px) {
+  .hero-art {
+    width: 70vw;
+    right: -7%;
+    top: 17%;
+  }
+}
+
+@media (max-width: 680px) {
+  .hero-art {
+    width: 105vw;
+    right: -18%;
+    top: 19%;
+  }
+}
+
+/* Match publication figures to the white publication page. */
+.publication-image {
+  background: #ffffff;
+}
+
+.publication-image img {
+  mix-blend-mode: normal;
+}
+
+.footer-logo {
+  width: 54px;
+  height: 54px;
+  flex: 0 0 auto;
+  object-fit: contain;
+}
+
+/* Reduce all text outside People to two thirds of its previous size. */
+.site-header,
+.site-header *,
+main .view-panel:not(.people-section),
+main .view-panel:not(.people-section) *,
+.site-footer,
+.site-footer * {
+  font-size: 20px !important;
+}
+
+main .hero h1 {
+  font-size: 33.33px !important;
+}
+
+main .view-panel:not(.people-section) .section-heading h2,
+main .view-panel:not(.people-section) .future-heading h2 {
+  font-size: 30.67px !important;
+}
+
+main .join-section h2 {
+  font-size: 33.33px !important;
+}
+
+main .research-section .research-card h3,
+main .news-section .empty-news p {
+  font-size: 25.33px !important;
+}
+
+main .research-section .card-tag,
+main .publications-section,
+main .publications-section * {
+  font-size: 13.33px !important;
+}
+
+/* Display the revised text logo at 90% of its previous size. */
+.header-logo {
+  width: 337.5px;
+}
+
+@media (max-width: 680px) {
+  .header-logo {
+    width: 297px;
+    max-width: calc(100vw - 104px);
+  }
+}
+
+@media (min-width: 840px) {
+  .header-logo {
+    width: 216px;
+  }
+}
+
+/* Keep the two research tags on one horizontal row. */
+.research-card .card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+
+.research-card .card-tags .card-tag {
+  margin-right: 0;
+}
+
+/* Enlarge homepage text while keeping the rounded button labels unchanged. */
+main .hero .eyebrow,
+main .hero .eyebrow a,
+main .hero .hero-lede {
+  font-size: 26px !important;
+}
+
+main .hero h1,
+main .hero h1 * {
+  font-size: 43.33px !important;
+}
+
+/* Place the medicine symbol above and to the left of the cell symbol. */
+.hero-symbol-medicine {
+  right: 38%;
+  top: 18%;
+  bottom: auto;
+}
+
+.student-photo {
+  display: grid;
+  place-items: center;
+}
+
+.student-photo span {
+  color: var(--ink-soft);
+  font-size: 15px !important;
+  font-weight: 600;
+  letter-spacing: .08em;
+}
+
+@media (min-width: 681px) {
+  .join-content h2 {
+    max-width: none;
+    white-space: nowrap;
+  }
+}
+
